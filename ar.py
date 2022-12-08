@@ -311,6 +311,6 @@ fig2 = px.line(data_frame=espect, y='Attendance', x='Year', markers=True, hover_
 fig2.update_traces(line_color='purple', marker_color='orange',line_width=3)
 
 st.write(fig2)
-
+print("Teste")
 
 
